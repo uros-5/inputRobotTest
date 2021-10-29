@@ -5,7 +5,7 @@ extern crate clipboard;
 use clipboard::{ClipboardContext, ClipboardProvider};
 
 fn main() {
-    let vreme = time::Duration::from_millis(1430);
+    let vreme = time::Duration::from_millis(1500);
 
     thread::sleep(vreme);
 
